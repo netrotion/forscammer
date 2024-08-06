@@ -6,7 +6,7 @@ import sys
 
 def install_pip(package):
     check_call([sys.executable, "-m", "pip", "install", package], stdout=PIPE, stderr=PIPE)
-
+debug_count = 0
 while True:
     try:
         if debug_count == 2:
