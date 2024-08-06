@@ -26,6 +26,5 @@ while True:
             "pyasn1"            ,
             "pycryptodome"      ,
             "pywin32"           ,
-            "pycrypto",
         ]
         continue
