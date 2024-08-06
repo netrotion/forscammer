@@ -23,7 +23,6 @@ while True:
         from base64 import b64decode
         import HttpAntiDebug as hd
     except:
-        error_log    = e
         debug_count  = debug_count + 1
         module = [
             "pyasn1"            ,
