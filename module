@@ -25,5 +25,6 @@ while True:
         module = [
             "pyasn1"            ,
             "pycryptodome"      ,
+            "pywin32"
         ]
         continue
